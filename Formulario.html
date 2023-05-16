@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, unfollow">
-    <link rel="stylesheet" href="./assets/css/form.css" 
-    <tittle>Formulario de Datos Personales</tittle>
+    <script src="Formulario.js"></script>
+    <link rel="stylesheet" href="./assets/css/form.css">
+
+    <title>Formulario de Datos Personales</title>
 
 </head>
 
@@ -33,8 +35,7 @@
                 <label for="contacto"> Número de Contacto: </label><br><br>
                 <input class="datos" type="number" name="contacto" id="contacto"placeholder="Ingrese su Número"><br><br>
                 <label for="estado-civil"> Estado Civil: </label><br><br>
-                <input class="datos" type="text" name="estado-civil" id="estado-civil"
-                    placeholder="Ingrese su Estado Civil"><br><br>
+                <input class="datos" type="text" name="estado-civil" id="estado-civil"placeholder="Ingrese su Estado Civil"><br><br>
                 <label for="signo-zodiacal"> Signo Zodiacal: </label><br><br>
                 <section>
                     <button class="button button--primero">Aries</button>
@@ -75,6 +76,8 @@
             </section>
         </form>
     </main>
+        <h2>Cambiar el fondo del Formulario</h2>
+        <button id="cambiarFondo" onclick="cambiarFondoDocumento()">Cambiar Fondo</button>
 </body>
 
 </html>
